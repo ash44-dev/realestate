@@ -1,4 +1,5 @@
 import { Instagram, Twitter, Linkedin, Facebook } from "lucide-react";
+import AshLogo from "@/components/AshLogo";
 
 const socialLinks = [
   { icon: <Instagram size={18} />, href: "#", label: "Instagram" },
@@ -23,9 +24,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           {/* Brand */}
           <div className="flex flex-col gap-3">
-            <span className="font-serif text-2xl font-bold tracking-tight">
-              Estate<span className="text-accent-light">&</span>
-            </span>
+            <AshLogo size="lg" className="text-white" />
             <p className="font-sans text-white/50 text-sm max-w-xs leading-relaxed">
               Exceptional homes for discerning buyers. Where real estate meets
               artistry.
@@ -63,7 +62,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="mt-10 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-sans text-xs text-white/30">
-            © {year} Estate &. All rights reserved.
+            © {year} ASH Real Estate. All rights reserved.
           </p>
           <p className="font-sans text-xs text-white/30">
             Privacy Policy · Terms of Service · DRE #01234567

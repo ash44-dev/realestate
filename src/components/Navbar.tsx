@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import clsx from "clsx";
+import AshLogo from "@/components/AshLogo";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -41,9 +42,9 @@ export default function Navbar() {
         <a
           href="#home"
           onClick={(e) => { e.preventDefault(); handleNavClick("#home"); }}
-          className="font-serif text-xl font-bold text-foreground tracking-tight select-none"
+          aria-label="ASH — Home"
         >
-          Estate<span className="text-accent">&</span>
+          <AshLogo size="md" />
         </a>
 
         {/* Desktop links */}
