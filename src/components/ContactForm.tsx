@@ -120,7 +120,7 @@ export default function ContactForm() {
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
-                className="bg-white rounded-2xl shadow-card p-7 sm:p-9 flex flex-col gap-5"
+                className="bg-card rounded-2xl shadow-card p-7 sm:p-9 flex flex-col gap-5"
               >
                 {/* Name + Email row */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -198,7 +198,7 @@ export default function ContactForm() {
 
 function inputClass(hasError: boolean) {
   return clsx(
-    "w-full font-sans text-sm text-foreground bg-[#F5F5F2] border rounded-xl px-4 py-3 outline-none transition-all duration-150 placeholder:text-muted/60",
+    "w-full font-sans text-sm text-foreground bg-background border rounded-xl px-4 py-3 outline-none transition-all duration-150 placeholder:text-muted/60",
     hasError
       ? "border-red-400 focus:border-red-500 focus:ring-2 focus:ring-red-100"
       : "border-border focus:border-accent focus:ring-2 focus:ring-accent/10"

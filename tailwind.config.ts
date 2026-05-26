@@ -9,25 +9,26 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#FAFAF7",
-        foreground: "#1A1A1A",
+        background: "#141410",
+        foreground: "#F0EFE9",
         accent: {
           DEFAULT: "#EAB308",
           light: "#FDE047",
           dark: "#CA8A04",
         },
-        card: "#FFFFFF",
-        muted: "#6B7280",
-        border: "#E5E7EB",
+        card: "#1E1E1A",
+        muted: "#9E9E94",
+        border: "#2E2E2A",
+        surface: "#0A0A08",
       },
       fontFamily: {
         serif: ["var(--font-playfair)", "Georgia", "serif"],
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        card: "0 2px 16px 0 rgba(0,0,0,0.07)",
-        "card-hover": "0 8px 32px 0 rgba(0,0,0,0.13)",
-        nav: "0 1px 0 0 rgba(0,0,0,0.06)",
+        card: "0 2px 16px 0 rgba(0,0,0,0.4)",
+        "card-hover": "0 8px 32px 0 rgba(0,0,0,0.6)",
+        nav: "0 1px 0 0 rgba(0,0,0,0.4)",
       },
       borderRadius: {
         "2xl": "1rem",

@@ -12,8 +12,8 @@ section[id] {
 
 @layer base {
   body {
-    background-color: #FAFAF7;
-    color: #1A1A1A;
+    background-color: #141410;
+    color: #F0EFE9;
     font-family: var(--font-inter), system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

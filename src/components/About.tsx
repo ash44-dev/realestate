@@ -16,7 +16,7 @@ export default function About() {
   const isInView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section id="about" className="py-24 px-6 lg:px-8 bg-white">
+    <section id="about" className="py-24 px-6 lg:px-8 bg-card">
       <div className="max-w-7xl mx-auto">
         <div
           ref={ref}
@@ -42,7 +42,7 @@ export default function About() {
             </div>
 
             {/* Floating stat card */}
-            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white rounded-2xl shadow-card-hover p-5 flex flex-col gap-1 w-40">
+            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-card rounded-2xl shadow-card-hover p-5 flex flex-col gap-1 w-40">
               <p className="font-serif text-3xl font-bold text-accent leading-none">20+</p>
               <p className="font-sans text-sm text-muted leading-snug">Years of trusted expertise</p>
             </div>
