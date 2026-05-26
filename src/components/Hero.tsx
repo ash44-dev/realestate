@@ -84,7 +84,7 @@ export default function Hero() {
         >
           <button
             onClick={scrollToListings}
-            className="bg-accent hover:bg-accent-dark text-white font-sans font-medium text-sm tracking-wide px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-lg active:scale-[0.98]"
+            className="bg-accent hover:bg-accent-dark text-foreground font-sans font-medium text-sm tracking-wide px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-lg active:scale-[0.98]"
           >
             Browse Listings
           </button>

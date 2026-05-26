@@ -66,7 +66,7 @@ export default function Navbar() {
           <a
             href="#contact"
             onClick={(e) => { e.preventDefault(); handleNavClick("#contact"); }}
-            className="btn-primary bg-accent text-white px-5 py-2.5 rounded-xl font-sans font-medium text-sm tracking-wide transition-all duration-200 hover:bg-accent-dark hover:shadow-md"
+            className="btn-primary bg-accent text-foreground px-5 py-2.5 rounded-xl font-sans font-medium text-sm tracking-wide transition-all duration-200 hover:bg-accent-dark hover:shadow-md"
           >
             List Your Property
           </a>
@@ -98,7 +98,7 @@ export default function Navbar() {
           <a
             href="#contact"
             onClick={(e) => { e.preventDefault(); handleNavClick("#contact"); }}
-            className="block text-center btn-primary bg-accent text-white px-5 py-3 rounded-xl font-sans font-medium text-sm tracking-wide transition-all duration-200 hover:bg-accent-dark mt-2"
+            className="block text-center btn-primary bg-accent text-foreground px-5 py-3 rounded-xl font-sans font-medium text-sm tracking-wide transition-all duration-200 hover:bg-accent-dark mt-2"
           >
             List Your Property
           </a>

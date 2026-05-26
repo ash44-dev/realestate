@@ -22,7 +22,7 @@ export default function PropertyCard({ listing }: PropertyCardProps) {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         {tag && (
-          <span className="absolute top-4 left-4 bg-accent text-white font-sans text-xs font-semibold tracking-wide px-3 py-1 rounded-full">
+          <span className="absolute top-4 left-4 bg-accent text-foreground font-sans text-xs font-semibold tracking-wide px-3 py-1 rounded-full">
             {tag}
           </span>
         )}
