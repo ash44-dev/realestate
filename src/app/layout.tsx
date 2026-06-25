@@ -15,12 +15,12 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Estate & — Modern Real Estate",
+  title: "ASH Real-estate",
   description:
-    "Discover exceptional homes and investment properties curated for discerning buyers. Estate & connects you with the finest real estate across the country.",
+    "Discover exceptional homes and investment properties curated for discerning buyers. ASH Real-estate connects you with the finest real estate across the country.",
   keywords: ["real estate", "luxury homes", "property listings", "buy home"],
   openGraph: {
-    title: "Estate & — Modern Real Estate",
+    title: "ASH Real-estate",
     description: "Find a place you'll love to call home.",
     type: "website",
   },
